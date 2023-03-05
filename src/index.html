@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="RU">
+<head>
+    <meta name="keywords" content="Услуги, сервисы, ремонт, gps">
+    <meta name="description" content="Cервисный центр по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document 1.3</title> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+<aside id="aside">
+    <div class="popup-window popup-window_invisible" id="popUpWindow">
+        <div class="popup-window__wrap">
+            <div class="popup-window__menu">
+                <button class="button popup-window__button-margin" id="closeMenu">
+                    <img src="./img/icon/close.svg" alt="Меню" class="menu__box_icon">
+                </button>
+                <img src="./img/icon/logo.svg" alt="Логотип" class="logo-top-bar popup-window_logo-margin">
+                <button class="button popup-window--button-margin" id="buttonMenu">
+                    <img src="./img/icon/poisk.svg" alt="Поиск" class="menu__box_icon">
+                </button>
+            </div>
+            <nav>
+                <ul class="popup-window__list">
+                    <li><a href="" class="popup-window__item popup-window__item_chek">Ремонт техники</a></li>
+                    <li><a href="" class="popup-window__item">Услуги и сервисы</a></li>
+                    <li><a href="" class="popup-window__item">Корпоративным клиентам</a></li>
+                    <li><a href="" class="popup-window__item">Продавцам техники</a></li>
+                    <li><a href="" class="popup-window__item">Партнерам</a></li>
+                    <li><a href="" class="popup-window__item">Производителям</a></li>
+                    <li><a href="" class="popup-window__item">Наши сервисные центры</a></li>
+                    <li><a href="" class="popup-window__item">Контакты</a></li>
+                </ul>
+            </nav>  
+            <div class="popup-window__menu popup-window__menu_gap">
+                <button class="button">
+                    <img src="./img/icon/iphone.svg" alt="телефон">
+                </button>
+                <button class="button">
+                    <img src="./img/icon/message.svg" alt="Сообщения">
+                </button>
+                <button class="button">
+                    <img src="./img/icon/people.svg" alt="Люди">
+                </button>
+            </div>
+            <ul class="popup-window__info">
+                <li><a href="mailto:mail@cps.com">mail@cps.com</a></li>
+                <li><a href="tel:+8 800 890 8900" class="popup-window__number">8 800 890 8900</a></li>
+            </ul>
+            <ul class="switch-language">
+                <li><button class="switch-language__button">RU</button></li>
+                <li><button class="switch-language__button">EN</button></li>
+                <li><button class="switch-language__button">CH</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="popup-window__blur blured" id="popupWindowBlur"></div>
+</aside>  
+<header class="top-bar">
+    <div class="wrap-button wrap-button__margin-right">
+        <button class="button" id="topBarButtonMenu" type="button">
+            <img class="menu__box_icon" src="./img/icon/icon.svg" alt="Меню">
+        </button>
+        <img class="logo" src="./img/icon/logo.svg" alt="Логотип" class="logo-top-bar">
+    </div>
+    <div class="wrap-button ">
+        <button class="button">
+            <img src="./img/icon/iphone.svg" alt="телефон">
+        </button>
+        <button class="button">
+            <img src="./img/icon/message.svg" alt="Сообщения">
+        </button>
+        <button class="button">
+            <img src="./img/icon/people.svg" alt="Люди">
+        </button>
+    </div>
+    <div class="wrap-button wrap-button__margin-left">
+        <button class="button button-before">
+            <img src="./img/icon/Group.svg" alt="Настройка">
+        </button>
+        <button class="button">
+            <img src="./img/icon/serch.svg" alt="Поиск">
+        </button>
+    </div>
+</header>
+<header class="services">
+    <div class="wrap-top-title">
+        <h1 class="title">Услуги и сервисы</h1>  
+        <div class="wrap-button wrap-button__margin-left">
+            <label class="label-button"> Оставить заявку
+                <button class="button">
+                    <img src="./img/icon/Group.svg" alt="Настройка">
+                </button>
+            </label>
+            <label  class="label-button"> Статус ремонта
+                <button class="button">
+                    <img src="./img/icon/serch.svg" alt="Поиск">
+                </button>
+            </label>
+        </div>
+    </div>
+    <nav class="navigation-bar">
+        <ul class="navigation-bar__list">
+            <li><a class="navigation-bar__list-item" href="">Ремонтируемые бренды</ф>
+            <li><a class="navigation-bar__list-item" href="">Ремонтируемые устройства</a></li>
+            <li><a class="navigation-bar__list-item" href="">Цены на услуги</a></li>
+            <li><a class="navigation-bar__list-item" href="">Адреса сервисных центров</a></li>
+            <li><a class="navigation-bar__list-item" href="">Специальные цены</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="wrap-main">
+    <section class="information-about-us">
+        <div class="information-about-us_list information-about-us_margin-left">
+            <button class="reviews">Отзывы</button>
+            <p class="information-about-us_item">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p> 
+            <p class="information-about-us_item invisible" id="text">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера <span class="ful-version-text ful-version-text_invisible">, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span></p>
+            <button class="button-read-more information-about-us_button" id="readMoretext">Читать далее</button>
+        </div>
+        <img src="./img/photo.png" alt="Изображение не загрузилось"class="main-image information-about-us__main-image">
+    </section>
+    <article class="middle-bar-title  middle-bar-title_margin">Ремонт техники различных брендов</article>
+    <div class="mySwiper brands">
+        <ul class="swiper-wrapper brands-list" id="swiperWraper">
+            <li class="swiper-slide brands__item">
+                <img src="./img/lenovo.svg" alt="lenovo" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/samsung.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/apple.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/viewsonic.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/bosch.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/hp.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/aser.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/sony.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/lenovo.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/samsung.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/apple.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
+                <button class="swiper-cricle"></button>
+            </li>
+        </ul> 
+        <div class="swiper-pagination"></div>
+        <button class="button-read-more button-read-more_margin button-read-more_invisible" id="ReadMore">Показать все</button>
+    </div>
+</main>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 28,
+        pagination: {
+            el: ".swiper-pagination"
+        },
+        mousewhell: true,
+        keyboard: true, 
+        slidesPerView: 'auto',
+    })
+</script>
+<script src="./js/script.js"></script>
+</body>
+</html>

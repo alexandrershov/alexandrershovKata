@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <article class="middle-bar-title  middle-bar-title_margin">Ремонт техники различных брендов</article>
+    <div class="mySwiper brands">
+        <ul class="swiper-wrapper brands-list swiper-wrapper_height" id="swiperWraper">
+            <li class="swiper-slide brands__item">
+                <img src="./img/lenovo.svg" alt="lenovo" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/samsung.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/apple.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/viewsonic.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/bosch.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/hp.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/aser.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/sony.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/lenovo.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/samsung.svg" alt="sumsung" class="swiper-slide__img">
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item">
+                <img src="./img/apple.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
+                <button class="swiper-cricle"></button>
+            </li>
+        </ul> 
+        <div class="swiper-pagination"></div>
+        <button class="button-read-more button-read-more_margin" id="ReadMore">Показать все</button>
+    </div>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 28,
+        pagination: {
+            el: ".swiper-pagination"
+        },
+        mousewhell: true,
+        keyboard: true, 
+        slidesPerView: 'auto',
+    })
+</script>  
+<script src="./js/script.js"></script>
+</body>
+</html>
