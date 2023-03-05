@@ -7,7 +7,6 @@ body{
     padding-bottom: 100px;
 }
 
-
 main{
     background: #F8F8F8 ;
 }
@@ -22,22 +21,6 @@ a{
     position: fixed;
     box-sizing: border-box;
     overflow-y: auto;
-}
-
-@keyframes moveMenu{
-    from{
-    margin-left: -300px;
-    }
-
-    to{
-
-    }
-}
-
-@keyframes moveBlur{
-    from{
-        opacity: 0;
-    }
 }
 
 .popup-window_invisible{
@@ -911,33 +894,43 @@ body{
 }
 }
 
+/* Анимации */
 
+@keyframes moveMenu{
+    from{
+    margin-left: -300px;
+    }
 
+    to{
 
+    }
+}
 
-
-
-
+@keyframes moveBlur{
+    from{
+        opacity: 0;
+    }
+}
 
 /* Подключение шрифтов */
 
 @font-face {
     font-family: "TTLakes"; 
-    src: url("/fonts/TTLakes-Regular.ttf") format("truetype"); 
+    src: url("./fonts/TTLakes-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
 
 @font-face {
         font-family: "TTLakesBold"; 
-        src: url("/fonts/TTLakes-Medium.ttf") format("truetype"); 
+        src: url("./fonts/TTLakes-Medium.ttf") format("truetype"); 
         font-style: normal; 
         font-weight: normal; 
 }  
 
 @font-face {
     font-family: "TTLakesB"; 
-    src: url("/fonts/TTLakes-Bold.ttf") format("truetype"); 
+    src: url("./fonts/TTLakes-Bold.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
 }  
