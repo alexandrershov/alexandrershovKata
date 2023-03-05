@@ -633,7 +633,7 @@ body{
 .main-image{
     border-radius: 5px;
     width: 50%;
-    height: auto;
+    height: fit-content;
 }
 
 .middle-bar-title_margin{
