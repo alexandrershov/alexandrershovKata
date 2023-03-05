@@ -1,0 +1,142 @@
+.popup-window{
+    animation: moveMenu 0.3s 1 linear;
+    z-index: 99999;
+    position: fixed;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.popup-window_invisible{
+    display: none;
+}
+
+.blured{
+    display: none;
+}
+
+.popup-window__menu{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.popup-window__list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style: none;
+    padding: 0px;
+
+}
+
+.popup-window__item{
+    color: black;
+}
+
+.popup-window__item:hover{
+    color: #7E7E82;  
+}
+
+
+.popup-window__item{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "TTLakesBold";
+}
+
+
+.popup-window__item_chek::before{
+    content: ' ';
+    display: inline-block;
+    width: 4px;
+    height: 32px;
+    position: absolute;
+    left: 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-color:  #41F6D7;
+}
+
+.popup-window__info{
+    list-style: none;
+    margin-bottom: 32px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-family: "TTLakesBold";
+    margin-bottom: 12px;
+    padding: 0px;
+}
+
+.popup-window__info li {
+    display: flex;
+    gap: 7px;
+}
+
+.popup-window__info li:first-child{
+    margin-bottom: 12px;
+}
+
+.popup-window__info li a{
+    text-decoration: none;
+    color: black;
+}
+
+.popup-window__info li a:hover{
+    color: #7E7E82;
+}
+
+.popup-window__info button {
+    border: none;
+    background-color:  #FFFFFF;
+    cursor: pointer;
+}
+
+.popup-window__info button:hover {
+    color: #7E7E82;
+}
+
+.popup-window__info div:hover{
+    color: #7E7E82;
+}
+
+.popup-window__info div{
+    margin-right: 7px;
+}
+
+.popup-window__number{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.popup-window__color-grey{
+    color: #7E7E82;
+}
+
+.popup-window__menu_gap{
+    gap: 16px;
+}
+
+.switch-language{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    gap: 7px;
+}
+
+.switch-language__button{
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'TTLakesBold';
+    cursor: pointer;
+}
+
+.switch-language__button:hover{
+    color: #7E7E82;
+}
