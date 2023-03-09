@@ -1,0 +1,25 @@
+.swiper-slide_typesRepairs{
+    height: 160px !important;
+    align-items: start;
+    padding: 10px;
+}
+
+.swiper-slide_typesRepairs .swiper-cricle{
+    align-self: end;
+}
+
+.brands_typeRepairs{
+    height: auto !important;
+}
+
+@media screen and (min-width: 577px) and (max-width: 1119px){
+    .title-typeRepairs_margin{
+        margin-top: 32px;
+    }
+}
+
+@media screen and (min-width: 1120px){
+    .title-typeRepairs_margin{
+        margin-top: 50px;
+    }
+}

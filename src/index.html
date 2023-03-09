@@ -17,7 +17,7 @@
     <div class="popup-window popup-window_invisible" id="popUpWindow">
         <div class="popup-window__wrap">
             <div class="popup-window__menu">
-                <button class="button popup-window__button-margin" id="closeMenu">
+                <button class="button popup-window__button-margin button_invisible" id="closeMenu">
                     <img src="./img/icon/close.svg" alt="Меню" class="menu__box_icon">
                 </button>
                 <img src="./img/icon/logo.svg" alt="Логотип" class="logo-top-bar popup-window_logo-margin">
@@ -61,6 +61,7 @@
     </div>
     <div class="popup-window__blur blured" id="popupWindowBlur"></div>
 </aside>  
+<div class="wrap">
 <header class="top-bar">
     <div class="wrap-button wrap-button__margin-right">
         <button class="button" id="topBarButtonMenu" type="button">
@@ -89,7 +90,7 @@
     </div>
 </header>
 <header class="services">
-    <div class="wrap-top-title">
+    <div class="wrap-title">
         <h1 class="title">Услуги и сервисы</h1>  
         <div class="wrap-button wrap-button__margin-left">
             <label class="label-button"> Оставить заявку
@@ -124,8 +125,8 @@
         </div>
         <img src="./img/photo.png" alt="Изображение не загрузилось"class="main-image information-about-us__main-image">
     </section>
-    <article class="bar-title  middle-bar-title_margin">Ремонт техники различных брендов</article>
-    <div class="mySwiper brands">
+    <article class="bar-title bar-title_margin">Ремонт техники различных брендов</article>
+    <nav class="mySwiper brands">
         <ul class="swiper-wrapper brands-list" id="swiperWraper">
             <li class="swiper-slide brands__item">
                 <img src="./img/lenovo.svg" alt="lenovo" class="swiper-slide__img">
@@ -174,11 +175,87 @@
         </ul> 
         <div class="swiper-pagination"></div>
         <button class="button-read-more button-read-more_margin button-read-more_invisible" id="ReadMore">Показать все</button>
-    </div>
+    </nav>
+    <article class="bar-title  title-typeRepairs_margin">Ремонт различных видов техники</article>
+    <nav class="mySwiper brands brands_typeRepairs">
+        <ul class="swiper-wrapper brands-list" id="swiperWraper">
+            <li class="swiper-slide brands__item swiper-slide_typesRepairs">
+                <p class="swiper-slide_text">Ремонт ноутбуков</p>
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item swiper-slide_typesRepairs">
+                <p class="swiper-slide_text">Ремонт планшетов</p>
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item swiper-slide_typesRepairs">
+                <p class="swiper-slide_text">Ремонт ПК</p>
+                <button class="swiper-cricle"></button>
+            </li>
+            <li class="swiper-slide brands__item swiper-slide_typesRepairs">
+                <p class="swiper-slide_text">Ремонт  мониторов </p>
+                <button class="swiper-cricle"></button>
+            </li>
+        </ul> 
+        <div class="swiper-pagination"></div>
+        <button class="button-read-more button-read-more_margin button-read-more_invisible" id="ReadMoreType">Показать все</button>
+    </nav>
+    <article class="bar-title  service-price_title">цены на услуги</article>
+    <nav class="mySwiper brands-service-price">
+        <ul class="swiper-wrapper brands-service-price_list" id="swiperWraper">
+            <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
+                <div><p class="brands__title_name brands-name_margin">Ремонтные услуги</p></div>
+                <div><p class="brands__title_name">Цена</p></div>
+                <div><p class="brands__title_name">Срок</p></div>
+            </li>
+            <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
+                <div><p class="swiper-slide_title brands__title">Ремонтные услуги</p><p class="brands__description">Диагностика</p></div>
+                <div><p class="swiper-slide_title brands__title">Цена</p><p class="brands__description">Бесплатно</p></div>
+                <div><p class="swiper-slide_title brands__title">Срок</p><p class="brands__description">30-120 мин</p></div>
+                <button class="swiper-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
+            </li>
+            <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
+                <div><p class="swiper-slide_title brands__title">Ремонтные услуги</p><p class="brands__description">Замена дисплея</p></div>
+                <div><p class="swiper-slide_title brands__title">Цена</p><p class="brands__description">1 000 ₽</p></div>
+                <div><p class="swiper-slide_title brands__title">Срок</p><p class="brands__description">30-120 мин</p></div>
+                <button class="swiper-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
+            </li>
+            <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
+                <div><p class="swiper-slide_title brands__title">Ремонтные услуги</p><p class="brands__description">Замена полифонического динамика</p></div>
+                <div><p class="swiper-slide_title brands__title">Цена</p><p class="brands__description">1 000 ₽</p></div>
+                <div><p class="swiper-slide_title brands__title">Срок</p><p class="brands__description">30-120 мин</p></div>
+                <button class="swiper-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
+            </li>
+            <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
+                <div><p class="swiper-slide_title brands__title">Ремонтные услуги</p><p class="brands__description">Тестирование с выдачей технического заключения</p></div>
+                <div><p class="swiper-slide_title brands__title">Цена</p><p class="brands__description">1 000 ₽</p></div>
+                <div><p class="swiper-slide_title brands__title">Срок</p><p class="brands__description">30-120 мин</p></div>
+                <button class="swiper-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
+            </li>
+            <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
+                <div><p class="swiper-slide_title brands__title">Ремонтные услуги</p><p class="brands__description">Замена программного обеспечения</p></div>
+                <div><p class="swiper-slide_title brands__title">Цена</p><p class="brands__description">1 000 ₽</p></div>
+                <div><p class="swiper-slide_title brands__title">Срок</p><p class="brands__description">30-120 мин</p></div>
+                <button class="swiper-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
+            </li>
+        </ul> 
+        <div class="swiper-pagination"></div>
+    </nav>
 </main>
+<footer class="information-block information-block_margin">
+    <p>Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
+    <label class="text-button-offer" for="offer">Получить коммерческое предложение
+    <button class="button-offer" id="offer"></button>
+    </label>
+</footer>
+<footer class="footer">
+    <p class="footer__text">© 2019 CPS Разработано командой Apesong</p>
+    <p class="footer__text">Политика конфиденциальности</p>
+    <p class="footer__text">Информация, размещенная на данной странице, не является публичной офертой</p>
+</footer>
+</div>
 <script>
     var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 28,
+        spaceBetween: 32,
         pagination: {
             el: ".swiper-pagination"
         },
@@ -187,6 +264,7 @@
         slidesPerView: 'auto',
     })
 </script>
+<script src="./js/readMoreType.js"></script>
 <script src="./js/script.js"></script>
 </body>
 </html>
