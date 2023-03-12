@@ -1,22 +1,22 @@
-.swiper-cricle:hover{
+.brands-cricle:hover{
     box-shadow: 0px 0px 2px 1px #FF3E79;
 }
 
-.swiper-cricle:focus{
+.brands-cricle:focus{
     box-shadow: inset 0px 0px 2px 1px #FF3E79;
 }
 
 .brands-list{
-    padding: 0px !important;
-    height: 160px !important;
+    padding: 0px;
+    height: 160px;
 }
 
 .brands-list_height{
-    height: auto !important;
+    height: auto;
 }
 
 .swiper-wrapper{
-    width: auto !important;
+    width: auto;
 }
 
 .swiper-slide{
@@ -27,11 +27,11 @@
     align-items: center;
     border-radius: 6px;
     padding: 0px 16px 0px 16px;
-    margin-right: 0px !important;
-    height: 72px !important;
+    margin-right: 0px;
+    height: 72px;
 }
 
-.swiper-cricle{
+.brands-cricle{
     cursor: pointer;
     width: 40px;
     height:40px;
@@ -45,7 +45,7 @@
 .mySwiper{
     margin-top: 16px;
     width: 100%;
-    height: auto !important;
+    height: auto;
     box-sizing: border-box;
     height: auto;
     overflow-x: hidden;
@@ -54,12 +54,12 @@
 .swiper-wrapper{
     display: flex;
     gap: 28px;
-    height: auto !important;
-    padding-left: 16px !important;
+    height: auto;
+    padding-left: 16px;
 }
 
 .swiper-slide{
-    width: 240px !important;
+    width: 240px;
 }
 
 .swiper-slide__img{
@@ -71,7 +71,7 @@
 }
 
 .swiper-pagination{
-    position: static !important;
+    position: static;
 }
 
 .button-read-more_invisible{
@@ -85,7 +85,7 @@
 }
 
 .swiper-wrapper{
-    transform: none !important;
+    transform: none;
 }
 
 .brands{
@@ -96,18 +96,18 @@
 
 .brands-list{
     width: auto;
-    display: flex !important;
+    display: flex;
     flex-wrap: wrap;
-    overflow: hidden !important;
+    overflow: hidden;
     column-gap: 25px;
     row-gap: 15px;
-    padding-left: 3% !important;
+    padding-left: 3%;
 }
 
 .brands__item{
     padding: 10px;
-    width: 29% !important;
-    height: 72px !important;
+    width: 29%;
+    height: 72px;
     border: 1px solid #EAEAEA;
 }
 
@@ -122,7 +122,7 @@
 
 @media screen and (min-width: 1120px){
 .swiper-wrapper{
-    transform: none !important;
+    transform: none;
 }
 
 .swiper-pagination{
@@ -130,23 +130,23 @@
 }
 
 .brands-list{
-    display: flex !important;
+    display: flex;
     flex-wrap: wrap;
-    overflow: hidden !important;
-    padding-left: 2.5% !important;
+    overflow: hidden;
+    padding-left: 2.5%;
 }
 
 .swiper-wrapper_height{
-    height: 160px !important;
+    height: 160px;
 }
 
 .brands__item{
     flex-shrink: 2;
     padding: 10px;
-    width: 21.5vw !important;
-    height: 72px !important;
+    width: 21.5vw;
+    height: 72px;
     border: 1px solid #EAEAEA;
-    margin: 0px 2.5% 16px 0px!important;
+    margin: 0px 2.5% 16px 0px;
 }
 
 .swiper-slide__img{
@@ -164,7 +164,7 @@
 
 @media screen and (min-width: 1440px){
 .swiper-wrapper{
-    transform: none !important;
+    transform: none;
 }
 
 .swiper-pagination{
@@ -172,23 +172,23 @@
 }
 
 .brands-list{
-    display: flex !important;
+    display: flex;
     flex-wrap: wrap;
-    overflow: hidden !important;
-    padding-left: 2.5% !important;
+    overflow: hidden;
+    padding-left: 2.5%;
 }
 
 .swiper-wrapper_height{
-    height: 160px !important;
+    height: 160px;
 }
 
 .brands__item{
     flex-shrink: 2;
     padding: 10px;
-    width: 16.8vw !important;
-    height: 72px !important;
+    width: 16.8vw;
+    height: 72px;
     border: 1px solid #EAEAEA;
-    margin: 0px 2.5% 16px 0px!important;
+    margin: 0px 2.5% 16px 0px;
 }
 
 .swiper-slide__img{

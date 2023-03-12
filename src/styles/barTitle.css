@@ -14,45 +14,29 @@
 }
 
 @media screen and (max-width: 576px){
-.bar-title_margin{
-    margin-top: 30px;
-}
-
 .title-typeRepairs_margin{
     margin-top: 28px;
-}
-
-.service-price_title{
-    margin-top: 20px;
 }
 }
 
 @media screen and (min-width: 577px) and (max-width: 1119px) {
-.bar-title_margin{
+.swiper-section_margin{
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .bar-title_typeRepairs{
     margin-top: 24px;
 }
-
-.service-price_title{
-    margin-top: 24px;
-}
 }
 
 @media screen and (min-width: 1120px){
-.bar-title_margin{
-    margin-top: 50px;
-    margin-bottom: 24px;
+.swiper-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.title-typeRepairs_margin{
-    margin-bottom: 35px;
-}
-
-.service-price_title{
-    margin-top: 51px;
+.wrap-main__swiper-section{
+    margin-top: 40px;
 }
 }

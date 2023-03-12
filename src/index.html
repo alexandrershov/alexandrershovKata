@@ -6,10 +6,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document 1.3</title> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
@@ -125,82 +125,87 @@
         </div>
         <img src="./img/photo.png" alt="Изображение не загрузилось"class="main-image information-about-us__main-image">
     </section>
-    <article class="bar-title bar-title_margin">Ремонт техники различных брендов</article>
+    <section class="swiper-section wrap-main__swiper-section">
+        <h2 class="bar-title">Ремонт техники различных брендов</h2>
+        <nav class="mySwiper brands">
+            <ul class="swiper-wrapper brands-list" id="swiperWraper">
+                <li class="swiper-slide brands__item">
+                    <img src="./img/lenovo.svg" alt="lenovo" class="swiper-slide__img">
+                    <button class="brands-cricle"></button>
+                </li>
+                <li class="swiper-slide brands__item">
+                    <img src="./img/samsung.svg" alt="sumsung" class="swiper-slide__img">
+                    <button class="brands-cricle"></button>
+                </li>
+                <li class="swiper-slide brands__item">
+                    <img src="./img/apple.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
+                    <button class="brands-cricle"></button>
+                </li>
+                <li class="swiper-slide brands__item">
+                    <img src="./img/viewsonic.svg" alt="sumsung" class="swiper-slide__img">
+                    <button class="brands-cricle"></button>
+                </li>
+                <li class="swiper-slide brands__item">
+                    <img src="./img/bosch.svg" alt="sumsung" class="swiper-slide__img">
+                    <button class="brands-cricle"></button>
+                </li>
+                <li class="swiper-slide brands__item">
+                    <img src="./img/hp.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
+                    <button class="brands-cricle"></button>
+                </li>
+                <li class="swiper-slide brands__item">
+                    <img src="./img/aser.svg" alt="sumsung" class="swiper-slide__img">
+                    <button class="brands-cricle"></button>
+                </li>
+                <li class="swiper-slide brands__item">
+                    <img src="./img/sony.svg" alt="sumsung" class="swiper-slide__img">
+                    <button class="brands-cricle"></button>
+                </li>
+                <li class="swiper-slide brands__item">
+                    <img src="./img/lenovo.svg" alt="sumsung" class="swiper-slide__img">
+                    <button class="brands-cricle"></button>
+                </li>
+                <li class="swiper-slide brands__item">
+                    <img src="./img/samsung.svg" alt="sumsung" class="swiper-slide__img">
+                    <button class="brands-cricle"></button>
+                </li>
+                <li class="swiper-slide brands__item">
+                    <img src="./img/apple.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
+                    <button class="brands-cricle"></button>
+                </li>
+            </ul> 
+            <div class="swiper-pagination"></div>
+            <button class="button-read-more swiper-section__button-read-more button-read-more_invisible" id="ReadMore">Показать все</button>
+        </nav>
+    </section>
+    <section class="swiper-section wrap-main__swiper-section">
+    <h2 class="bar-title">Ремонт различных видов техники</h2>
     <nav class="mySwiper brands">
-        <ul class="swiper-wrapper brands-list" id="swiperWraper">
-            <li class="swiper-slide brands__item">
-                <img src="./img/lenovo.svg" alt="lenovo" class="swiper-slide__img">
-                <button class="swiper-cricle"></button>
-            </li>
-            <li class="swiper-slide brands__item">
-                <img src="./img/samsung.svg" alt="sumsung" class="swiper-slide__img">
-                <button class="swiper-cricle"></button>
-            </li>
-            <li class="swiper-slide brands__item">
-                <img src="./img/apple.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
-                <button class="swiper-cricle"></button>
-            </li>
-            <li class="swiper-slide brands__item">
-                <img src="./img/viewsonic.svg" alt="sumsung" class="swiper-slide__img">
-                <button class="swiper-cricle"></button>
-            </li>
-            <li class="swiper-slide brands__item">
-                <img src="./img/bosch.svg" alt="sumsung" class="swiper-slide__img">
-                <button class="swiper-cricle"></button>
-            </li>
-            <li class="swiper-slide brands__item">
-                <img src="./img/hp.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
-                <button class="swiper-cricle"></button>
-            </li>
-            <li class="swiper-slide brands__item">
-                <img src="./img/aser.svg" alt="sumsung" class="swiper-slide__img">
-                <button class="swiper-cricle"></button>
-            </li>
-            <li class="swiper-slide brands__item">
-                <img src="./img/sony.svg" alt="sumsung" class="swiper-slide__img">
-                <button class="swiper-cricle"></button>
-            </li>
-            <li class="swiper-slide brands__item">
-                <img src="./img/lenovo.svg" alt="sumsung" class="swiper-slide__img">
-                <button class="swiper-cricle"></button>
-            </li>
-            <li class="swiper-slide brands__item">
-                <img src="./img/samsung.svg" alt="sumsung" class="swiper-slide__img">
-                <button class="swiper-cricle"></button>
-            </li>
-            <li class="swiper-slide brands__item">
-                <img src="./img/apple.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
-                <button class="swiper-cricle"></button>
-            </li>
-        </ul> 
-        <div class="swiper-pagination"></div>
-        <button class="button-read-more button-read-more_margin button-read-more_invisible" id="ReadMore">Показать все</button>
-    </nav>
-    <article class="bar-title  title-typeRepairs_margin">Ремонт различных видов техники</article>
-    <nav class="mySwiper brands brands_typeRepairs">
         <ul class="swiper-wrapper brands-list" id="swiperWraperBrands">
             <li class="swiper-slide brands__item swiper-slide_typesRepairs">
                 <p class="swiper-slide_text">Ремонт ноутбуков</p>
-                <button class="swiper-cricle"></button>
+                <button class="brands-cricle"></button>
             </li>
             <li class="swiper-slide brands__item swiper-slide_typesRepairs">
                 <p class="swiper-slide_text">Ремонт планшетов</p>
-                <button class="swiper-cricle"></button>
+                <button class="brands-cricle"></button>
             </li>
             <li class="swiper-slide brands__item swiper-slide_typesRepairs">
                 <p class="swiper-slide_text">Ремонт ПК</p>
-                <button class="swiper-cricle"></button>
+                <button class="brands-cricle"></button>
             </li>
             <li class="swiper-slide brands__item swiper-slide_typesRepairs">
                 <p class="swiper-slide_text">Ремонт  мониторов </p>
-                <button class="swiper-cricle"></button>
+                <button class="brands-cricle"></button>
             </li>
         </ul> 
         <div class="swiper-pagination"></div>
-        <button class="button-read-more button-read-more_margin button-read-more_invisible" id="ReadMoreType">Показать все</button>
+        <button class="button-read-more swiper-section__button-read-more button-read-more_invisible" id="ReadMoreType">Показать все</button>
     </nav>
-    <article class="bar-title  service-price_title">цены на услуги</article>
-    <nav class="mySwiper brands-service-price">
+    </section>
+    <section class="swiper-section wrap-main__swiper-section"></section>
+    <h2 class="bar-title">цены на услуги</h2>
+    <div class="mySwiper brands-service-price">
         <ul class="swiper-wrapper brands-service-price_list" id="swiperWraper">
             <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
                 <div><p class="brands__title_name brands-name_margin">Ремонтные услуги</p></div>
@@ -211,35 +216,36 @@
                 <div><p class="swiper-slide_title brands__title">Ремонтные услуги</p><p class="brands__description">Диагностика</p></div>
                 <div><p class="swiper-slide_title brands__title">Цена</p><p class="brands__description">Бесплатно</p></div>
                 <div><p class="swiper-slide_title brands__title">Срок</p><p class="brands__description">30-120 мин</p></div>
-                <button class="swiper-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
+                <button class="brands-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
             </li>
             <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
                 <div><p class="swiper-slide_title brands__title">Ремонтные услуги</p><p class="brands__description">Замена дисплея</p></div>
                 <div><p class="swiper-slide_title brands__title">Цена</p><p class="brands__description">1 000 ₽</p></div>
                 <div><p class="swiper-slide_title brands__title">Срок</p><p class="brands__description">30-120 мин</p></div>
-                <button class="swiper-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
+                <button class="brands-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
             </li>
             <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
                 <div><p class="swiper-slide_title brands__title">Ремонтные услуги</p><p class="brands__description">Замена полифонического динамика</p></div>
                 <div><p class="swiper-slide_title brands__title">Цена</p><p class="brands__description">1 000 ₽</p></div>
                 <div><p class="swiper-slide_title brands__title">Срок</p><p class="brands__description">30-120 мин</p></div>
-                <button class="swiper-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
+                <button class="brands-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
             </li>
             <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
                 <div><p class="swiper-slide_title brands__title">Ремонтные услуги</p><p class="brands__description">Тестирование с выдачей технического заключения</p></div>
                 <div><p class="swiper-slide_title brands__title">Цена</p><p class="brands__description">1 000 ₽</p></div>
                 <div><p class="swiper-slide_title brands__title">Срок</p><p class="brands__description">30-120 мин</p></div>
-                <button class="swiper-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
+                <button class="brands-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
             </li>
             <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
                 <div><p class="swiper-slide_title brands__title">Ремонтные услуги</p><p class="brands__description">Замена программного обеспечения</p></div>
                 <div><p class="swiper-slide_title brands__title">Цена</p><p class="brands__description">1 000 ₽</p></div>
                 <div><p class="swiper-slide_title brands__title">Срок</p><p class="brands__description">30-120 мин</p></div>
-                <button class="swiper-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
+                <button class="brands-cricle swiper-cricle_service-price brands-button">заказать<div class="brands-button_cricle"></div></button>
             </li>
         </ul> 
         <div class="swiper-pagination"></div>
-    </nav>
+    </div>
+    </section>
 </main>
 <footer class="information-block information-block_margin">
     <p>Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>

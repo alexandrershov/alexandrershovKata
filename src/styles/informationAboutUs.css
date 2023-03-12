@@ -97,7 +97,7 @@
     margin-left: 15px;
 }
 
-.button-read-more_margin{
+.swiper-section__button-read-more{
     margin-left: 5.5%;
     margin-top: 2%;
 }
@@ -143,16 +143,13 @@
     border-radius: 6px;
 }
 
-.button-read-more{
-    margin-left: 4%;
-}
-
 .button-read-more::before{
     left: 3%;
 }
 
-.button-read-more_margin{
+.swiper-section__button-read-more{
     margin-top: 24px;
+    margin-left: 4%;
 }
 }
 

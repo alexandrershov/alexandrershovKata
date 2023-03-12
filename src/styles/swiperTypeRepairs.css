@@ -1,15 +1,15 @@
 .swiper-slide_typesRepairs{
-    height: 160px !important;
+    height: 160px;
     align-items: start;
     padding: 10px;
 }
 
-.swiper-slide_typesRepairs .swiper-cricle{
+.swiper-slide_typesRepairs .brands-cricle{
     align-self: end;
 }
 
 .brands_typeRepairs{
-    height: auto !important;
+    height: auto;
 }
 
 @media screen and (min-width: 577px) and (max-width: 1119px){
