@@ -12,31 +12,3 @@
     background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
     box-shadow: 0 -0.2px 0.5px 0px #41F6D7 ;
 }
-
-@media screen and (max-width: 576px){
-.title-typeRepairs_margin{
-    margin-top: 28px;
-}
-}
-
-@media screen and (min-width: 577px) and (max-width: 1119px) {
-.swiper-section_margin{
-    margin-top: 20px;
-}
-
-.bar-title_typeRepairs{
-    margin-top: 24px;
-}
-}
-
-@media screen and (min-width: 1120px){
-.swiper-section{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.wrap-main__swiper-section{
-    margin-top: 40px;
-}
-}

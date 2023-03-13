@@ -1,65 +1,19 @@
-.swiper-slide_service-price{
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    font-size: 14px;
-    line-height: 16px;
-    align-items: start;
-    padding: 10px;
-}
-
-.swiper-cricle_service-price{
-    width: 119px;
-    height: 32px;
-    color: aliceblue;
-    background-color: #FF3E79;
-    border-radius: 16px;
-    margin-left: auto;
-}
-
-.swiper-slide_title{
-    color: #7E7E82;
-}
-
-.swiper-slide_title{
-    margin-bottom: 0px;
-}
-
-.brands__description{
+.brands-service-price_description{
     margin: 4px 0px 8px 0px;
-}
-
-.brands-button{
-    display: flex;
-    gap: 17px;
-    align-items: center;
-    padding: 0px 10px 0px 15px;
-    width: 119px;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: -0.15px;
-    font-weight: bold;
-}
-
-.brands-button_cricle{
-    width: 7px;
-    height: 9px;
-    background: url(/src/img/icon/dropdown.png);
-    margin-bottom: 2px;
 }
 
 .brands-service-price_item:nth-child(1){
     display: none;
 }
 
-@media screen and (max-width: 576) {
-.brands__title{
+@media screen and (max-width: 767) {
+.brands-service-price_title{
     display: none;
 }  
 }
 
-@media screen and (min-width: 577px) and (max-width: 1119px) {
-.brands__title{
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+.brands-service-price_title{
     display: none;
 }  
 
@@ -74,7 +28,7 @@
 }
 
 .brands-service-price_item{
-    width: 93vw;
+    width: 91vw;
     height: 70px;
     align-items: center;
     display: grid;
@@ -84,13 +38,9 @@
 .brands-service-price_item:nth-child(1){
     display: grid;
     height: 50px;
-    padding: 0px 0px 45px 0px;
+    padding: 0px 0px 45px 20px;
     background-color: #F8F8F8;
     color: #7E7E82;
-}
-
-.brands-name_margin{
-    margin-left: 20px;
 }
 
 .brands-service-price_item::before{
@@ -101,7 +51,7 @@
     background-color: #EAEAEA;
     position: absolute;
     margin-top: 65px;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
 .brands-service-price_item:nth-child(6)::before{
@@ -111,7 +61,7 @@
 
 @media screen and (min-width: 1120px) {
 
-.brands__title{
+.brands-service-price_title{
     display: none;
 }  
 
@@ -123,7 +73,7 @@
 .brands-service-price_item{
     padding: 20px;
     font-size: 14px;
-    width: 93vw;
+    width: 92vw;
     height: 70px;
     align-items: center;
     display: grid;
@@ -139,15 +89,11 @@
     grid-template-columns: 35.5% 10% 15% 25%;
 }
 
-.brands-name_margin{
-    margin-left: 20px;
-}
-
 .brands-service-price_item::before{
     display: block;
     content: '';
-    width: 91vw;
-    height: 1px;
+    width: 89.2vw;
+    height: 2px;
     background-color: #EAEAEA;
     position: absolute;
     margin-top: 70px;
@@ -167,11 +113,11 @@
 
 @media screen and (min-width: 1440px) {
 .brands-service-price_item{
-    width: 74vw;
+    width: 73vw;
 }
 
 .brands-service-price_item::before{
-    width: 72vw;
+    width: 70vw;
 }
 
 .brands-service-price_list{

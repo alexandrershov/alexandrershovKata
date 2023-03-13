@@ -24,7 +24,7 @@
     background: no-repeat url(/src/img/icon/dropdown.svg);
 }
 
-@media screen and (min-width: 577px) and (max-width: 1119px){
+@media screen and (min-width: 768px) and (max-width: 1119px){
 .information-block_margin{
     margin-top: 20px;
 }

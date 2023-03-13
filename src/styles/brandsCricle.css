@@ -1,0 +1,17 @@
+.brands-cricle:hover{
+    box-shadow: 0px 0px 2px 1px #FF3E79;
+}
+
+.brands-cricle:focus{
+    box-shadow: inset 0px 0px 2px 1px #FF3E79;
+}
+
+.brands-cricle{
+    cursor: pointer;
+    width: 40px;
+    height:40px;
+    border: 1px solid #FF3E79;
+    border-radius: 20px;  
+    background:no-repeat url('/src/img/icon/dropdown.svg'); 
+    background-position: center;
+}

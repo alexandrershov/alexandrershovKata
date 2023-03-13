@@ -1,13 +1,19 @@
+@import url(./styles/swiper.css);
+@import url(./styles/brandsCricle.css);
 @import url(./styles/popupwindow.css);
 @import url(./styles/topBar.css);
 @import url(./styles/navigationService.css);
 @import url(./styles/informationAboutUs.css);
 @import url(./styles/barTitle.css );
-@import url(./styles/swiperBrands.css);
+@import url(./styles/brands.css);
 @import url(./styles/swiperTypeRepairs.css);
-@import url(./styles/swiperServicePrice.css);
+@import url(./styles/brandsServicePrice.css);
 @import url(./styles/informationBlock.css);
 @import url(./styles/footer.css);
+@import url(./styles/swiperSection.css);
+@import url(./styles/buttonReadMore.css);
+@import url(./styles/brandsCricleServicePrice.css);
+@import url(./styles/mainImage.css);
 
 body{
     font-family: "TTLakes";
@@ -38,6 +44,10 @@ a{
 
 .ful-version-text_invisible{
     display: none;
+}
+
+.brands-list_height{
+    height: auto;
 }
 
 @media screen and (min-width: 577px) and (max-width: 1119px) {

@@ -28,78 +28,21 @@
     margin-bottom: 15px;
 }
 
-.information-about-us_margin-left{
-    padding: 0px 16px 0px 16px;
+.information-about-us__information-about-us_list{
+    padding: 0px 16px 0px 24px;
 }
 
-.button-read-more{
-    cursor: pointer;
-    font-family: "TTLakesBold";
-    align-items: center;
-    display: flex;
-    width: 120px;
-    height: 24px;
-    outline: none;
-    border: none;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.2px;
-    background-color: #F8F8F8;
-}
-
-.button-read-more::before{
-    display: inline-block;
-    position: absolute;
-    left: 4%;
-    content: '';
-    width: 7.5px;
-    height: 10px;
-    background-image: url("/src/img/icon/arrowtodown.svg");
-}
-
-.grow__onwards_vertical.button-read-more::before{
-    display: block;
-    content: '';
-    position: absolute;
-    width: 7.5px;
-    height: 10px;
-    background-image: url("/src/img/icon/arrowtodown.svg");
-    transform: rotate(180deg);
-}
-
-@media screen and (max-width: 576px){
+@media screen and (max-width: 767px){
 .information-about-us{
     padding-left: 0px;
     padding-right: 0px;
     flex-direction: column;
 }
-
-.main-image{
-    width: 100%;
-    margin: 0 auto;
 }
 
-.button-read-more{
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+.information-about-us__information-about-us_list{
     margin-left: 15px;
-}
-
-.button-read-more::before{
-    left: 20px;
-}
-}
-
-@media screen and (min-width: 577px) and (max-width: 1119px) {
-.information-about-us_button{
-    margin-left: 8%;
-}
-
-.information-about-us_margin-left{
-    margin-left: 15px;
-}
-
-.swiper-section__button-read-more{
-    margin-left: 5.5%;
-    margin-top: 2%;
 }
 }
 
@@ -108,14 +51,6 @@
     margin-top: 20px;
     gap: 36px;
     padding-left: 10px;
-}
-
-.information-about-us__main-image{
-    margin-top: 30px; 
-}
-
-.information-about-us_button{
-    margin-left: 5%;
 }
 
 .reviews{
@@ -130,43 +65,11 @@
     cursor: pointer;
 }
 
-.reviews_margin{
+.information-about-us__reviews{
     margin-left: 10px;
 }
 
 .menu__box-block_full-version{
     display: inline;
-}
-
-.main-image{
-    width: 49.5%;
-    border-radius: 6px;
-}
-
-.button-read-more::before{
-    left: 3%;
-}
-
-.swiper-section__button-read-more{
-    margin-top: 24px;
-    margin-left: 4%;
-}
-}
-
-
-@media screen and (min-width: 1440px){
-
-.button-read-more::before{
-    position: inherit;
-    margin-right: 10px;
-}   
-
-.button-read-more{
-    width: auto;
-}
-
-.grow__onwards_vertical.button-read-more::before{
-    position: inherit;
-    margin-right: 10px;
 }
 }
