@@ -21,9 +21,3 @@
     margin-top: 28px;
 }
 }
-
-@media screen and (min-width: 1120px){
-    .title-typeRepairs_margin{
-        margin-top: 50px;
-    }
-}

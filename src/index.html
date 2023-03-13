@@ -20,7 +20,7 @@
                 <button class="button popup-window__button-margin button_invisible" id="closeMenu">
                     <img src="./img/icon/close.svg" alt="Меню" class="menu__box_icon">
                 </button>
-                <img src="./img/icon/logo.svg" alt="Логотип" class="logo-top-bar popup-window_logo-margin">
+                <img src="./img/icon/logo.svg" alt="Логотип" class="logo popup-window_logo-margin">
                 <button class="button" id="buttonMenu">
                     <img src="./img/icon/poisk.svg" alt="Поиск" class="menu__box_icon">
                 </button>
@@ -60,7 +60,26 @@
         </div>
     </div>
     <div class="popup-window__blur blured" id="popupWindowBlur"></div>
-</aside>  
+</aside> 
+
+<aside id="aside">
+    <div class="popup-window popup-window_invisible popup-window_feedback" id="popUpWindow">
+        <div class="popup-window__wrap-feedback">
+            <h1 class="title">Обратная связь</h1>  
+        </div>
+        <form action="" class="form-feedback">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <p></p>
+            <button></button>
+        </form>
+    </div>
+    <div class="popup-window__blur blured popup-window_blur-feedback" id="popupWindowBlur"></div>
+</aside> 
+
+
 <div class="wrap">
 <header class="top-bar">
     <div class="wrap-button wrap-button__margin-right">
@@ -129,47 +148,47 @@
         <h2 class="bar-title">Ремонт техники различных брендов</h2>
         <nav class="mySwiper brands">
             <ul class="swiper-wrapper brands-list" id="swiperWraper">
-                <li class="swiper-slide brands__item">
+                <li class="swiper-slide brands-list__item">
                     <img src="./img/lenovo.svg" alt="lenovo" class="swiper-slide__img">
                     <button class="brands-cricle"></button>
                 </li>
-                <li class="swiper-slide brands__item">
+                <li class="swiper-slide brands-list__item">
                     <img src="./img/samsung.svg" alt="sumsung" class="swiper-slide__img">
                     <button class="brands-cricle"></button>
                 </li>
-                <li class="swiper-slide brands__item">
+                <li class="swiper-slide brands-list__item">
                     <img src="./img/apple.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
                     <button class="brands-cricle"></button>
                 </li>
-                <li class="swiper-slide brands__item">
+                <li class="swiper-slide brands-list__item">
                     <img src="./img/viewsonic.svg" alt="sumsung" class="swiper-slide__img">
                     <button class="brands-cricle"></button>
                 </li>
-                <li class="swiper-slide brands__item">
+                <li class="swiper-slide brands-list__item">
                     <img src="./img/bosch.svg" alt="sumsung" class="swiper-slide__img">
                     <button class="brands-cricle"></button>
                 </li>
-                <li class="swiper-slide brands__item">
+                <li class="swiper-slide brands-list__item">
                     <img src="./img/hp.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
                     <button class="brands-cricle"></button>
                 </li>
-                <li class="swiper-slide brands__item">
+                <li class="swiper-slide brands-list__item">
                     <img src="./img/aser.svg" alt="sumsung" class="swiper-slide__img">
                     <button class="brands-cricle"></button>
                 </li>
-                <li class="swiper-slide brands__item">
+                <li class="swiper-slide brands-list__item">
                     <img src="./img/sony.svg" alt="sumsung" class="swiper-slide__img">
                     <button class="brands-cricle"></button>
                 </li>
-                <li class="swiper-slide brands__item">
+                <li class="swiper-slide brands-list__item">
                     <img src="./img/lenovo.svg" alt="sumsung" class="swiper-slide__img">
                     <button class="brands-cricle"></button>
                 </li>
-                <li class="swiper-slide brands__item">
+                <li class="swiper-slide brands-list__item">
                     <img src="./img/samsung.svg" alt="sumsung" class="swiper-slide__img">
                     <button class="brands-cricle"></button>
                 </li>
-                <li class="swiper-slide brands__item">
+                <li class="swiper-slide brands-list__item">
                     <img src="./img/apple.svg" alt="sumsung" class="swiper-slide__img swiper-slide__img_lil-size">
                     <button class="brands-cricle"></button>
                 </li>
@@ -182,19 +201,19 @@
     <h2 class="bar-title">Ремонт различных видов техники</h2>
     <nav class="mySwiper brands">
         <ul class="swiper-wrapper brands-list" id="swiperWraperBrands">
-            <li class="swiper-slide brands__item brands__typesRepairs">
+            <li class="swiper-slide brands-list__item brands__typesRepairs">
                 <p>Ремонт ноутбуков</p>
                 <button class="brands-cricle"></button>
             </li>
-            <li class="swiper-slide brands__item brands__typesRepairs">
+            <li class="swiper-slide brands-list__item brands__typesRepairs">
                 <p>Ремонт планшетов</p>
                 <button class="brands-cricle"></button>
             </li>
-            <li class="swiper-slide brands__item brands__typesRepairs">
+            <li class="swiper-slide brands-list__item brands__typesRepairs">
                 <p>Ремонт ПК</p>
                 <button class="brands-cricle"></button>
             </li>
-            <li class="swiper-slide brands__item brands__typesRepairs">
+            <li class="swiper-slide brands-list__item brands__typesRepairs">
                 <p>Ремонт  мониторов </p>
                 <button class="brands-cricle"></button>
             </li>
@@ -212,31 +231,31 @@
                 <div><p class="brands__title_name">Цена</p></div>
                 <div><p class="brands__title_name">Срок</p></div>
             </li>
-            <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
+            <li class="swiper-slide brands-service-price_item swiper-slide__service-price">
                 <div><p class="swiper-slide_title brands-service-price_title">Ремонтные услуги</p><p class="brands-service-price_description">Диагностика</p></div>
                 <div><p class="swiper-slide_title brands-service-price_title">Цена</p><p class="brands-service-price_description">Бесплатно</p></div>
                 <div><p class="swiper-slide_title brands-service-price_title">Срок</p><p class="brands-service-price_description">30-120 мин</p></div>
                 <button class="brands-cricle brands-cricle_service-price">заказать<div class="brands-cricle__img"></div></button>
             </li>
-            <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
+            <li class="swiper-slide brands-service-price_item swiper-slide__service-price">
                 <div><p class="swiper-slide_title brands-service-price_title">Ремонтные услуги</p><p class="brands-service-price_description">Замена дисплея</p></div>
                 <div><p class="swiper-slide_title brands-service-price_title">Цена</p><p class="brands-service-price_description">1 000 ₽</p></div>
                 <div><p class="swiper-slide_title brands-service-price_title">Срок</p><p class="brands-service-price_description">30-120 мин</p></div>
                 <button class="brands-cricle brands-cricle_service-price">заказать<div class="brands-cricle__img"></div></button>
             </li>
-            <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
+            <li class="swiper-slide brands-service-price_item swiper-slide__service-price">
                 <div><p class="swiper-slide_title brands-service-price_title">Ремонтные услуги</p><p class="brands-service-price_description">Замена полифонического динамика</p></div>
                 <div><p class="swiper-slide_title brands-service-price_title">Цена</p><p class="brands-service-price_description">1 000 ₽</p></div>
                 <div><p class="swiper-slide_title brands-service-price_title">Срок</p><p class="brands-service-price_description">30-120 мин</p></div>
                 <button class="brands-cricle brands-cricle_service-price">заказать<div class="brands-cricle__img"></div></button>
             </li>
-            <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
+            <li class="swiper-slide brands-service-price_item swiper-slide__service-price">
                 <div><p class="swiper-slide_title brands-service-price_title">Ремонтные услуги</p><p class="brands-service-price_description">Тестирование с выдачей технического заключения</p></div>
                 <div><p class="swiper-slide_title brands-service-price_title">Цена</p><p class="brands-service-price_description">1 000 ₽</p></div>
                 <div><p class="swiper-slide_title brands-service-price_title">Срок</p><p class="brands-service-price_description">30-120 мин</p></div>
                 <button class="brands-cricle brands-cricle_service-price">заказать<div class="brands-cricle__img"></div></button>
             </li>
-            <li class="swiper-slide brands-service-price_item swiper-slide_service-price">
+            <li class="swiper-slide brands-service-price_item swiper-slide__service-price">
                 <div><p class="swiper-slide_title brands-service-price_title">Ремонтные услуги</p><p class="brands-service-price_description">Замена программного обеспечения</p></div>
                 <div><p class="swiper-slide_title brands-service-price_title">Цена</p><p class="brands-service-price_description">1 000 ₽</p></div>
                 <div><p class="swiper-slide_title brands-service-price_title">Срок</p><p class="brands-service-price_description">30-120 мин</p></div>

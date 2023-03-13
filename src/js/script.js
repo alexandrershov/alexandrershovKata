@@ -15,50 +15,49 @@ const readMoretext = document.getElementById('readMoretext');
 const text = document.getElementById('text');
 const textmini = document.querySelector('.ful-version-text');
 
-const addingStyles = () => {
+const popUpWindowSwipe = () => {
     if(document.documentElement.clientWidth > 578){
         popupWindowBlur.classList.toggle('blured');
     }
     popUpWindow.classList.toggle('popup-window_invisible');
 }
 
-// Функция на кнопку (показать еще) , показать больше текста
+const onClick = (e) => {
+    let className = '';
+    let buttonName = '';
+    let swiperName = '';
+    let firstText = '';
+    let lastText = '';
+    if (e.target == readMore){
+        className = 'brands-list_height';
+        buttonName = readMore;
+        swiperName = swiperWraper;
+        firstText = 'Показать все';
+        lastText = 'Скрыть';
+    } else if (e.target == readMoreType) {
+        className = 'brands-list_height';
+        buttonName = readMoreType;
+        swiperName = swiperWraperBrands;
+        firstText = 'Показать все';
+        lastText = 'Скрыть';
+    } else if (e.target == readMoretext) {
+        className = 'invisible';
+        buttonName = readMoretext;
+        swiperName = text;
+        firstText = 'Читать далее';
+        lastText = 'Скрыть';
+        textmini.classList.toggle('ful-version-text_invisible');
+    }
+    swiperName.classList.toggle(className);
+    if (buttonName.innerText == firstText) {
+        buttonName.innerHTML = lastText;
+    } else buttonName.innerHTML = firstText;
+    buttonName.classList.toggle('grow__onwards_vertical');
+};
 
-const onClickReadMoreText = () => {
-    textmini.classList.toggle('ful-version-text_invisible');
-    text.classList.toggle('invisible');
-    if (readMoretext.innerHTML == 'Читать далее'){
-        readMoretext.innerHTML = 'Скрыть'
-    } else readMoretext.innerHTML = 'Читать далее';
-    readMoretext.classList.toggle('grow__onwards_vertical')
-}
-
-// Функция на кнопку (показать еще) первого свайпера
-
-const onClickReadMoreBrands = () => {
-    swiperWraper.classList.toggle('brands-list_height');
-    if (readMore.innerText == 'Показать все') {
-        readMore.innerHTML = 'Скрыть'
-    } else readMore.innerHTML = 'Показать все';
-    readMore.classList.toggle('grow__onwards_vertical');
-}
-
-// Функция на кнопку (показать еще) второго свайпера
-const onClickReadMoreBrandsRepairs = () => {
-    swiperWraperBrands.classList.toggle('brands-list_height');
-    if (readMoreType.innerText == 'Показать все') {
-        readMoreType.innerHTML = 'Скрыть'
-    } else readMoreType.innerHTML = 'Показать все';
-    readMoreType.classList.toggle('grow__onwards_vertical');
-}
-
-
-readMore.onclick = onClickReadMoreBrands;
-readMoretext.addEventListener('click' , onClickReadMoreText)
-buttonMenu.addEventListener('click' , addingStyles);
-closeMenu.addEventListener('click' , addingStyles);
-popupWindowBlur.addEventListener('click' , addingStyles);
-
-// Обработчик событий на второй свайпер
-
-readMoreType.addEventListener('click' , onClickReadMoreBrandsRepairs);
+readMore.onclick = onClick;
+readMoreType.addEventListener('click' , onClick);
+readMoretext.addEventListener('click' , onClick);
+buttonMenu.addEventListener('click' , popUpWindowSwipe);
+closeMenu.addEventListener('click' , popUpWindowSwipe);
+popupWindowBlur.addEventListener('click' , popUpWindowSwipe);

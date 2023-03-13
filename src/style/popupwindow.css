@@ -119,26 +119,6 @@
     gap: 16px;
 }
 
-.switch-language{
-    display: flex;
-    list-style: none;
-    padding: 0px;
-    gap: 7px;
-}
-
-.switch-language__button{
-    border: none;
-    background-color: white;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: 'TTLakesBold';
-    cursor: pointer;
-}
-
-.switch-language__button:hover{
-    color: #7E7E82;
-}
-
 @media screen and (max-width: 767px){
 .popup-window__wrap{
     margin-left: 16px;
@@ -227,10 +207,6 @@
 
 .popup-window__number{
     margin-bottom: auto;
-}
-
-.switch-language__button{
-    margin-bottom: 32px;
 }    
 }
 
@@ -292,10 +268,6 @@
 .popup-window__number{
     margin-bottom: auto;
 }
-
-.switch-language__button{
-    margin-bottom: 32px;
-} 
 }
 
 /* @keyframes moveMenu{

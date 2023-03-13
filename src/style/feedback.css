@@ -1,0 +1,13 @@
+.popup-window_feedback{
+    right: 0px;
+    position: fixed;
+    width: 440px;
+}
+
+.popup-window__wrap-feedback{
+    padding-top: 2 0px;
+}
+
+.popup-window_blur-feedback{
+    left: 0px;
+}

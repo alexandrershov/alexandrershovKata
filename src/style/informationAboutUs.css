@@ -29,7 +29,7 @@
 }
 
 .information-about-us__information-about-us_list{
-    padding: 0px 16px 0px 24px;
+    padding: 0px 16px 0px 16px;
 }
 
 @media screen and (max-width: 767px){

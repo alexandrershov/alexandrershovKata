@@ -1,5 +1,6 @@
 .swiper-wrapper{
     width: auto;
+    transform: none;
 }
 
 .swiper-slide{
@@ -14,7 +15,7 @@
     height: 72px;
 }
 
-.swiper-slide_service-price{
+.swiper-slide__service-price{
     height: auto;
     display: flex;
     flex-direction: column;
@@ -68,10 +69,6 @@
 @media screen and (min-width: 768px) and (max-width: 1119px) {
 .swiper-pagination{
     display: none;
-}
-
-.swiper-wrapper{
-    transform: none;
 }
 
 .swiper-slide__img{
